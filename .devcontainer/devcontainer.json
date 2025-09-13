@@ -1,19 +1,20 @@
 {
   "name": "Ievadstunda",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-        "-github.copilot-chat",  // Disable Copilot Chat
-        "ms-python.python"       // Example: install Python extension
+        "ms-python.python"
       ],
       "settings": {
-        "chat.disableAIFeatures": true,  // Disable AI features
-        "github.copilot.enable": false,  // Disable Copilot
-        "github.copilot.enableChat": false  // Disable Copilot chat
+        "chat.disableAIFeatures": true,
+        "github.copilot.enable": false,
+        "github.copilot.enableChat": false
       }
     }
-  },
-  "features": {
-    "python": "latest"  // Example feature for Python
   }
 }
