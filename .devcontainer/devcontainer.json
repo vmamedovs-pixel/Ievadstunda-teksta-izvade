@@ -1,6 +1,5 @@
 {
   "name": "Ievadstunda",
-  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",  // You can change this to your base image
   "customizations": {
     "vscode": {
       "extensions": [
