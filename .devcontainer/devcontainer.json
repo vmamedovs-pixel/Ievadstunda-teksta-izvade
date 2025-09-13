@@ -1,0 +1,20 @@
+{
+  "name": "Ievadstunda",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",  // You can change this to your base image
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "-github.copilot-chat",  // Disable Copilot Chat
+        "ms-python.python"       // Example: install Python extension
+      ],
+      "settings": {
+        "chat.disableAIFeatures": true,  // Disable AI features
+        "github.copilot.enable": false,  // Disable Copilot
+        "github.copilot.enableChat": false  // Disable Copilot chat
+      }
+    }
+  },
+  "features": {
+    "python": "latest"  // Example feature for Python
+  }
+}
